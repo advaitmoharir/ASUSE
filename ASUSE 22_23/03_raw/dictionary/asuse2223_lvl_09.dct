@@ -1,0 +1,25 @@
+ infix dictionary {
+   str fsu_serial_no 1-5
+    str schedule 6-8
+    byte sector 9
+    str nss_region 10-12
+    str district 13-14
+    str stratum 15-17
+    str sub_stratum 18-19
+    byte sub_round 20
+    str fod_sub_region 21-24
+    str segment_no 25
+    str sec_stage_stratum_no 26-27
+    str sample_est_no 28-29
+    str level 30-31
+    str item_no 32-34
+    int avg_wrks_full_male 35-39
+    int avg_wrks_full_female 40-44
+    int avg_wrks_full_trans 45-49
+    int avg_wrks_part_male 50-54
+    int avg_wrks_part_female 55-59
+    int avg_wrks_part_trans 60-64
+    int avg_wrks_total 65-69
+    double multiplier 70-79 
+	
+ }

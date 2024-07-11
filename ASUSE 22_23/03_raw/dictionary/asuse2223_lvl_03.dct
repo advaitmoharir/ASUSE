@@ -1,0 +1,36 @@
+infix dictionary {
+str fsu_serial_no 1-5
+    str schedule 6-8
+    byte sector 9
+    str nss_region 10-12
+    str district 13-14
+    str stratum 15-17
+    str sub_stratum 18-19
+    byte sub_round 20
+    str fod_sub_region 21-24
+    str segment_no 25
+    str sec_stage_stratum_no 26-27
+    str sample_est_no 28-29
+    str level 30-31
+    byte had_manuf 32
+    byte had_trading_activity 33
+    byte had_transportation_act 34
+    byte had_warehousing_act 35
+    byte had_postal_courier_act 36
+    byte had_accommodation_food_act 37
+    byte had_info_communication_act 38
+    byte had_financial_act 39
+    byte had_real_estate_act 40
+    byte had_business_professional_act 41
+    byte had_educational_act 42
+    byte had_health_social_veterinary_act 43
+    byte had_personal_service_act 44
+    byte had_other_act 45
+    byte type_reference_period 46
+    int days_closed_govt_order 47-48
+    int months_accounting_period 49-50
+    byte selected_unit 51
+    int total_branch_est 52-53
+    byte separate_account_for_branch_est 54
+    double multiplier 55-64 
+}
