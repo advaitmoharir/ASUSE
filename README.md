@@ -16,7 +16,7 @@ The repo has the folders `ASUSE 21_22` and `ASUSE 22_23`, covering the two years
 1. `0_master.do`: Sets root directory, folder names etc
 2. `1_clean.do`: Extracts all variables from raw txt files, by each level and preliminary cleaning
 3. `var_labels.do`: Do file to apply labels to cleaned dta files
-4. `2_parquet_csv.R`: Python code to convert csv to parquet and back
+4. `2_parquet_csv.R`: R code to convert csv to parquet and back
 
 ## Clean files
 
