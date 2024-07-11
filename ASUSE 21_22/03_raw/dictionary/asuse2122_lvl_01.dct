@@ -1,0 +1,24 @@
+infix dictionary {
+    str fsu_serial_no 1-5
+    str schedule 6-8
+    byte sector 9
+    str nss_region 10-12
+    str district 13-14
+    str stratum 15-16
+    str sub_stratum 17-19
+    str sub_round 20
+    str fod_sub_region 21-24
+    str segment_no 25
+    str sec_stage_stratum_no 26-27
+    str sample_est_no 28-29
+    str level 30-31
+    str survey_code 32
+    str status_code 33
+    str reason_not_surveyed 34
+    str response_code 35
+    str informant_code 36
+    str date_of_survey 37-44
+    int time_taken 45-47
+    double multiplier 48-57
+}
+
